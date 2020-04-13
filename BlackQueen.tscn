@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/black_queen.png" type="Texture" id=1]
+[ext_resource path="res://src/BlackQueen.gd" type="Script" id=2]
+
+[node name="BlackQueen" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="black_queen" type="Sprite" parent="."]
+texture = ExtResource( 1 )
